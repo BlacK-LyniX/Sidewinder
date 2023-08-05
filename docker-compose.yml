@@ -1,0 +1,7 @@
+version: "3"
+services:
+  flask-app:
+    container_name: flesk-api
+    image: flask-app:v3
+    ports:
+      - '8000:8000'
